@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rebeccapurple;
+    color: white;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: black;
+    border-radius: 50px;
+    width: 700px;
+    height: 700px;
+}
+.container h1 {
+    font-size: 3.5rem;
+    font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 50px;
+}
+.container .start-btn {
+    padding: 15px 10px;
+    width: 150px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rebeccapurple;
+    font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: rgb(122, 99, 168) solid 2px;
+    border-radius: 5px;
+}
+.rules-container {
+    background-color: white;
+    padding: 40px;
+    border: solid 3px rebeccapurple;
+    border-radius: 30px;
+    max-width: 500px;
+    /* Add transition */
+}
+.rules-container h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto 20px;
+    color: rebeccapurple;
+    font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rules-container .rules-list {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.rules-container .rules-list li {
+    padding: 5px;
+    color: black;
+}
+.rules-container button {
+    padding: 8px 10px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: solid rebeccapurple 1px;
+    border-radius: 5px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.rules-container button:hover {
+    background-color: gainsboro;
+}
+.rules-container .continue-btn {
+    background-color: rebeccapurple;
+    color: white;
+}
+.rules-container .continue-btn:hover {
+    background-color: rgb(120, 68, 172);
+}
+
+.quiz-container h2 {
+    text-align: left;
+    margin-bottom: 30px;
+    padding: 0 10px;
+    color: rgb(187, 163, 236);
+    font-weight: 600;
+    font-size: 2.1rem;
+    width: 600px;
+}
+.quiz-container button {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 200px 10px 40px;
+    width: 100%;
+    margin: 10px;
+    border: mediumpurple solid 2px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.quiz-container button:disabled {
+    color: black;
+    background-color: white;
+    cursor: not-allowed;
+}
+.quiz-container button:hover:not([disabled]) {
+    background-color: rgb(187, 163, 236);
+}
+.quiz-container .correct:disabled {
+    background-color: rgb(11, 188, 11);
+    border: rgb(11, 188, 11) solid 2px;
+}
+.quiz-container .wrong:disabled {
+    background-color: darkred;
+    border: darkred solid 2px;
+}
+.hide {
+    display: none;
+}
+.next-btn {
+    padding: 10px 15px;
+    width: 100px;
+    font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    background-color: white;
+    color: rebeccapurple;
+    border: solid rgb(122, 99, 168) 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.next-btn:hover {
+    background-color: rebeccapurple;
+    border: rgba(96, 12, 119) solid 2px;
+    color: white;
+}
+.scoreContainer h2 {
+    font-size: 2.5rem;
+}
+.scoreContainer .score {
+    color: rgb(187, 163, 236);
+    margin-left: 10px;
+}
+.resetButton {
+    margin: 30px auto;
+    padding: 10px 15px;
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rebeccapurple;
+    border: rgb(122, 99, 168) solid 2px;
+    border-radius: 5px;
+}
+
+/* TODO: Transitions */

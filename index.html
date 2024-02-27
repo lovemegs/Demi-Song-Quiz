@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/387ef7b9c5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   
+   <div class="container">
+        <h1>Demi Lovato Song Quiz</h1>
+        <button class="start-btn" id="start-btn">Start</button>
+
+        
+        <div class="rules-container hide">
+            <h2>Quiz Info</h2>
+            <ul class="rules-list">
+                <li>There are 10 questions</li>
+                <!-- <li>You'll have 15 seconds to answer each question</li> -->
+                <li>Each question is about Demi Lovato's songs, albums, and music videos</li>
+                <li>As soon as you click an answer it will tell you if you got it correct or wrong</li>
+                <!-- <li>If you got it wrong, it will reveal the correct answer</li> -->
+                <li>At the end, you'll get your score and the option to try again</li>
+            </ul>
+            <button class="cancel-btn">Cancel</button>
+            <button class="continue-btn">Start Quiz</button>
+        </div>
+
+        <div class="quiz-container hide" id="quizContainer">
+            <div class="question">
+                <!-- <h2>What song starts with the line, "You've got a face for a smile you know"?</h2> -->
+            </div>
+            <div class="answerButtons">
+                <!-- <button class="btn">Everything You're Not</button>
+                <button class="btn">World of Chances</button>
+                <button class="btn">Mistake</button>
+                <button class="btn">The art of starting over</button> -->
+            </div>
+        </div>
+        <div class="nextButtonContainer">
+            <button class="next-btn hide">NEXT</button>
+        </div>
+        
+        <div class="scoreContainer hide">
+            <h2 class="">You Scored<span class="score"> <!-- 3 out of 10 --> </span></h2>
+            <button class="resetButton">RESET</button>
+        </div>
+    </div>
+
+    <div class="end-screen hide">
+        <h3>You got 8 out of 10 correct!</h3>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
