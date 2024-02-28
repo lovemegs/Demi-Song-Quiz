@@ -19,11 +19,12 @@ body {
     padding: 30px;
     background-color: black;
     border-radius: 50px;
-    width: 700px;
-    height: 700px;
+    width: 80%;
+    height: 700%;
 }
 .container h1 {
     font-size: 3.5rem;
+    text-align: center;
     font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
 }
@@ -87,17 +88,17 @@ body {
 .quiz-container h2 {
     text-align: left;
     margin-bottom: 30px;
-    padding: 0 10px;
+    padding: 0 20px;
     color: rgb(187, 163, 236);
     font-weight: 600;
     font-size: 2.1rem;
-    width: 600px;
+    width: 90%;
 }
 .quiz-container button {
     display: flex;
     flex-direction: column;
     padding: 10px 200px 10px 40px;
-    width: 100%;
+    width: 95%;
     margin: 10px;
     border: mediumpurple solid 2px;
     border-radius: 10px;
