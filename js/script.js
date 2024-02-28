@@ -157,10 +157,11 @@ const getQuestions = () => {
     resetState();
     // gets the first question
     let currentQuestion = randomQuestion[currentQuestionIndex];
+    let questionNumber = currentQuestionIndex + 1;
 
     // creates an h2 element and assigns the first question to it and displays to the webpage
     let question = document.createElement('h2');
-    question.innerHTML = currentQuestion.question;
+    question.innerHTML = questionNumber + '. ' + currentQuestion.question;
     questionElement.appendChild(question);
 
     // Gets each option from the array and puts it in it's own button element and displays to the webpage
