@@ -23,7 +23,7 @@ body {
     height: 700%;
 }
 .container h1 {
-    font-size: 3.5rem;
+    font-size: 3rem;
     text-align: center;
     font-family: 'Lilita One', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 50px;
@@ -88,16 +88,17 @@ body {
 .quiz-container h2 {
     text-align: left;
     margin-bottom: 30px;
-    padding: 0 20px;
+    padding: 0 0 0 10px;
     color: rgb(187, 163, 236);
     font-weight: 600;
-    font-size: 2.1rem;
+    font-size: 2rem;
     width: 90%;
 }
 .quiz-container button {
     display: flex;
     flex-direction: column;
-    padding: 10px 200px 10px 40px;
+    text-align: left;
+    padding: 10px 20px 10px 40px;
     width: 95%;
     margin: 10px;
     border: mediumpurple solid 2px;

@@ -109,6 +109,116 @@ const quizArray = [
             "8"
         ]
     },
+    {
+        id: 11,
+        question: "What music video features Jesse Williams and Demi Lovato in a wedding dress?",
+        answer: "Tell Me You Love Me",
+        options: [
+            "Only Forever",
+            "Tell Me You Love Me",
+            "Give Your Heart A Break",
+            "Cry Baby"
+        ]
+    },
+    {
+        id: 12,
+        question: "What song is about Demi's relationship with her dad in her childhood?",
+        answer: "For The Love Of A Daughter",
+        options: [
+            "For The Love Of A Daughter",
+            "Daddy Issues",
+            "Shouldn't Come Back",
+            "Never Been Hurt"
+        ]
+    },
+    {
+        id: 13,
+        question: "What music video featured the ultimate house party?",
+        answer: "Sorry Not Sorry",
+        options: [
+            "Can't Back Down",
+            "Really Don't Care",
+            "Cool For The Summer",
+            "Sorry Not Sorry"
+        ]
+    },
+    {
+        id: 14,
+        question: "What Famous Disney Movie did Demi Lovato sing a remake for?",
+        answer: "Frozen",
+        options: [
+            "Tangled",
+            "Frozen",
+            "Moana",
+            "The Beauty And The Beast (live action)"
+        ]
+    },
+    {
+        id: 15,
+        question: "How many Disney movies did Demi Lovato sing for (not including Camp Rock)?",
+        answer: "3",
+        options: [
+            "1",
+            "4",
+            "2",
+            "3"
+        ]
+    },
+    {
+        id: 16,
+        question: "What song did Demi Lovato write for her fans?",
+        answer: "My Love Is Like A Star",
+        options: [
+            "My Love Is Like A Star",
+            "Skyscraper",
+            "Nightingale",
+            "Fix A Heart"
+        ]
+    },
+    {
+        id: 17,
+        question: "What year did the song Skyscraper release?",
+        answer: "2011",
+        options: [
+            "2012",
+            "2009",
+            "2011",
+            "2010"
+        ]
+    },
+    {
+        id: 18,
+        question: "What music video was filmed in Utah?",
+        answer: "Skyscraper",
+        options: [
+            "Cool For The Summer",
+            "Confident",
+            "Tell Me You Love Me",
+            "Skyscraper"
+        ]
+    },
+    {
+        id: 19,
+        question: "What song has the line 'splash mountain from your hands at Disneyland'?",
+        answer: "City Of Angels",
+        options: [
+            "Gift Of A Friend",
+            "City Of Angels",
+            "Come Together",
+            "Happy Ending"
+        ]
+    },
+    {
+        id: 20,
+        question: "What song ends with the line 'Hey, thank you for your useless information'?",
+        answer: "Help Me",
+        options: [
+            "Substance",
+            "Help Me",
+            "Shouldn't Come Back",
+            "Holy Fvck"
+        ]
+    },
 ]
 // References
 const startButton = document.getElementById('start-btn');
